@@ -1,0 +1,17 @@
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\bin\Debug\net8.0-windows\presentacion.exe
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\bin\Debug\net8.0-windows\presentacion.deps.json
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\bin\Debug\net8.0-windows\presentacion.runtimeconfig.json
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\bin\Debug\net8.0-windows\presentacion.dll
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\bin\Debug\net8.0-windows\presentacion.pdb
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.csproj.GenerateResource.cache
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.AssemblyInfoInputs.cache
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.AssemblyInfo.cs
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.csproj.CoreCompileInputs.cache
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.dll
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\refint\presentacion.dll
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.pdb
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.genruntimeconfig.cache
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\ref\presentacion.dll
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.Properties.Resources.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.Qnacho.resources
