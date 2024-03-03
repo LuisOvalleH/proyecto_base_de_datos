@@ -10,7 +10,7 @@ namespace presentacion
         public Qnacho()
         {
             InitializeComponent();
-            string mysqlcon = "server = 127.0.0.1; user=root; database=Qnacho; password=ovalle82";
+            string mysqlcon = "server= 127.0.0.1; port=3307; user=root; database=qnacho; password=ovalle82";
             mySqlConnection = new MySqlConnection(mysqlcon);
         }
 

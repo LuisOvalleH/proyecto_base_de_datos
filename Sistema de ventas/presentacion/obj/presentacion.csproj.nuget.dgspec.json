@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[8.3.0, )"
             },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.5, )"
+            },
             "NuGet.Frameworks": {
               "target": "Package",
               "version": "[6.9.1, )"

@@ -33,3 +33,5 @@ C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\n
 C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.sourcelink.json
 C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presenta.D2D8CCE5.Up2Date
 C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\bin\Debug\net8.0-windows\NuGet.Frameworks.dll
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\bin\Debug\net8.0-windows\MySqlConnector.dll
