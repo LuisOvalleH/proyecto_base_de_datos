@@ -35,6 +35,7 @@
             gestionDeComprasToolStripMenuItem = new ToolStripMenuItem();
             gestionDeEmpleadosToolStripMenuItem = new ToolStripMenuItem();
             pictureBox1 = new PictureBox();
+            button1 = new Button();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -58,6 +59,7 @@
             gestionDeProductoToolStripMenuItem.Name = "gestionDeProductoToolStripMenuItem";
             gestionDeProductoToolStripMenuItem.Size = new Size(206, 29);
             gestionDeProductoToolStripMenuItem.Text = "Gestion de producto";
+            gestionDeProductoToolStripMenuItem.Click += gestionDeProductoToolStripMenuItem_Click;
             // 
             // gestionDeVentasToolStripMenuItem
             // 
@@ -101,11 +103,21 @@
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
+            // button1
+            // 
+            button1.Location = new Point(982, 182);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 2;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // Qnacho
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1152, 744);
+            Controls.Add(button1);
             Controls.Add(pictureBox1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
@@ -129,5 +141,6 @@
         private ToolStripMenuItem gestionDeInventarioToolStripMenuItem;
         private ToolStripMenuItem gestionDeEmpleadosToolStripMenuItem;
         private PictureBox pictureBox1;
+        private Button button1;
     }
 }

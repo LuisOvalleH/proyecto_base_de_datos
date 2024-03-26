@@ -41,6 +41,11 @@ namespace presentacion
             OpenConnection();
         }
 
+        private void gestionDeProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
         // Si necesitas cerrar la conexión en algún momento, puedes llamar al método CloseConnection()
     }
 }
