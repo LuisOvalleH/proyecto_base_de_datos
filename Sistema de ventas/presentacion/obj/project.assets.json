@@ -1943,19 +1943,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luism\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Proyecto Base Datos\\Sistema de ventas\\presentacion\\presentacion.csproj",
       "projectName": "presentacion",
-      "projectPath": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\presentacion.csproj",
-      "packagesPath": "C:\\Users\\luism\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Proyecto Base Datos\\Sistema de ventas\\presentacion\\presentacion.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Proyecto Base Datos\\Sistema de ventas\\presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\luism\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1963,7 +1963,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -2018,7 +2018,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
