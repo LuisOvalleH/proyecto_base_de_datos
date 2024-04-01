@@ -28,120 +28,139 @@
         /// </summary>
         private void InitializeComponent()
         {
-            menuStrip1 = new MenuStrip();
+            menu = new MenuStrip();
             gestionDeProductoToolStripMenuItem = new ToolStripMenuItem();
             gestionDeVentasToolStripMenuItem = new ToolStripMenuItem();
             gestionDeClientesToolStripMenuItem = new ToolStripMenuItem();
             gestionDeComprasToolStripMenuItem = new ToolStripMenuItem();
             gestionDeEmpleadosToolStripMenuItem = new ToolStripMenuItem();
+            label1 = new Label();
             pictureBox1 = new PictureBox();
-            button1 = new Button();
-            button2 = new Button();
-            menuStrip1.SuspendLayout();
+            label2 = new Label();
+            labelusuario = new Label();
+            menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // menuStrip1
+            // menu
             // 
-            menuStrip1.BackColor = Color.Chocolate;
-            menuStrip1.Font = new Font("Segoe UI", 10F);
-            menuStrip1.ImageScalingSize = new Size(25, 25);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { gestionDeProductoToolStripMenuItem, gestionDeVentasToolStripMenuItem, gestionDeClientesToolStripMenuItem, gestionDeComprasToolStripMenuItem, gestionDeEmpleadosToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Padding = new Padding(5, 2, 0, 2);
-            menuStrip1.RenderMode = ToolStripRenderMode.System;
-            menuStrip1.Size = new Size(1008, 33);
-            menuStrip1.TabIndex = 0;
-            menuStrip1.Text = "menuStrip1";
+            menu.AutoSize = false;
+            menu.BackColor = Color.Chocolate;
+            menu.Dock = DockStyle.None;
+            menu.Font = new Font("Segoe UI", 10F);
+            menu.ImageScalingSize = new Size(25, 25);
+            menu.Items.AddRange(new ToolStripItem[] { gestionDeProductoToolStripMenuItem, gestionDeVentasToolStripMenuItem, gestionDeClientesToolStripMenuItem, gestionDeComprasToolStripMenuItem, gestionDeEmpleadosToolStripMenuItem });
+            menu.Location = new Point(0, 59);
+            menu.Name = "menu";
+            menu.Padding = new Padding(6, 3, 0, 3);
+            menu.RenderMode = ToolStripRenderMode.System;
+            menu.Size = new Size(1152, 37);
+            menu.TabIndex = 0;
+            menu.Text = "menu";
             // 
             // gestionDeProductoToolStripMenuItem
             // 
             gestionDeProductoToolStripMenuItem.Image = Properties.Resources.bienes1;
             gestionDeProductoToolStripMenuItem.Name = "gestionDeProductoToolStripMenuItem";
-            gestionDeProductoToolStripMenuItem.Size = new Size(172, 29);
+            gestionDeProductoToolStripMenuItem.Size = new Size(206, 31);
             gestionDeProductoToolStripMenuItem.Text = "Gestion de producto";
-            gestionDeProductoToolStripMenuItem.Click += gestionDeProductoToolStripMenuItem_Click;
             // 
             // gestionDeVentasToolStripMenuItem
             // 
             gestionDeVentasToolStripMenuItem.Image = Properties.Resources.beneficio_financiero;
             gestionDeVentasToolStripMenuItem.Name = "gestionDeVentasToolStripMenuItem";
-            gestionDeVentasToolStripMenuItem.Size = new Size(156, 29);
+            gestionDeVentasToolStripMenuItem.Size = new Size(185, 31);
             gestionDeVentasToolStripMenuItem.Text = "Gestion de ventas";
             // 
             // gestionDeClientesToolStripMenuItem
             // 
             gestionDeClientesToolStripMenuItem.Image = Properties.Resources.objetivo;
             gestionDeClientesToolStripMenuItem.Name = "gestionDeClientesToolStripMenuItem";
-            gestionDeClientesToolStripMenuItem.Size = new Size(161, 29);
+            gestionDeClientesToolStripMenuItem.Size = new Size(193, 31);
             gestionDeClientesToolStripMenuItem.Text = "Gestion de clientes";
             // 
             // gestionDeComprasToolStripMenuItem
             // 
             gestionDeComprasToolStripMenuItem.Image = Properties.Resources.metodo_de_pago;
             gestionDeComprasToolStripMenuItem.Name = "gestionDeComprasToolStripMenuItem";
-            gestionDeComprasToolStripMenuItem.Size = new Size(168, 29);
+            gestionDeComprasToolStripMenuItem.Size = new Size(201, 31);
             gestionDeComprasToolStripMenuItem.Text = "Gestion de compras";
             // 
             // gestionDeEmpleadosToolStripMenuItem
             // 
             gestionDeEmpleadosToolStripMenuItem.Image = Properties.Resources.empleo;
             gestionDeEmpleadosToolStripMenuItem.Name = "gestionDeEmpleadosToolStripMenuItem";
-            gestionDeEmpleadosToolStripMenuItem.Size = new Size(182, 29);
+            gestionDeEmpleadosToolStripMenuItem.Size = new Size(219, 31);
             gestionDeEmpleadosToolStripMenuItem.Text = "Gestion de empleados";
-            gestionDeEmpleadosToolStripMenuItem.TextAlign = ContentAlignment.TopLeft;
+            gestionDeEmpleadosToolStripMenuItem.Click += gestionDeEmpleadosToolStripMenuItem_Click;
+            // 
+            // label1
+            // 
+            label1.Anchor = AnchorStyles.None;
+            label1.BackColor = Color.ForestGreen;
+            label1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ButtonHighlight;
+            label1.ImageAlign = ContentAlignment.MiddleLeft;
+            label1.Location = new Point(0, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(1152, 59);
+            label1.TabIndex = 2;
+            label1.Text = "  SISTEMA DE VENTAS";
+            label1.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // pictureBox1
             // 
-            pictureBox1.Anchor = AnchorStyles.None;
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImageLayout = ImageLayout.None;
-            pictureBox1.Image = Properties.Resources.Imagen_de_WhatsApp_2024_02_28_a_las_08_371;
-            pictureBox1.Location = new Point(250, 40);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.BackColor = Color.ForestGreen;
+            pictureBox1.Image = Properties.Resources.Imagen_de_WhatsApp_2024_02_28_a_las_08_37_37_9d4332cd_removebg_preview;
+            pictureBox1.Location = new Point(231, 3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(512, 447);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 1;
+            pictureBox1.Size = new Size(52, 53);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 
-            // button1
+            // label2
             // 
-            button1.Location = new Point(859, 136);
-            button1.Margin = new Padding(3, 2, 3, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(82, 22);
-            button1.TabIndex = 2;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            label2.AutoSize = true;
+            label2.BackColor = Color.ForestGreen;
+            label2.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(883, 19);
+            label2.Name = "label2";
+            label2.Size = new Size(72, 23);
+            label2.TabIndex = 5;
+            label2.Text = "Usuario:";
             // 
-            // button2
+            // labelusuario
             // 
-            button2.Location = new Point(859, 248);
-            button2.Margin = new Padding(3, 2, 3, 2);
-            button2.Name = "button2";
-            button2.Size = new Size(82, 22);
-            button2.TabIndex = 3;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            labelusuario.AutoSize = true;
+            labelusuario.BackColor = Color.ForestGreen;
+            labelusuario.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelusuario.ForeColor = Color.White;
+            labelusuario.Location = new Point(961, 19);
+            labelusuario.Name = "labelusuario";
+            labelusuario.Size = new Size(68, 23);
+            labelusuario.TabIndex = 6;
+            labelusuario.Text = "Usuario";
             // 
             // Qnacho
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1008, 558);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            ClientSize = new Size(1152, 744);
+            Controls.Add(labelusuario);
+            Controls.Add(label2);
             Controls.Add(pictureBox1);
-            Controls.Add(menuStrip1);
-            MainMenuStrip = menuStrip1;
-            Margin = new Padding(3, 2, 3, 2);
+            Controls.Add(label1);
+            Controls.Add(menu);
+            IsMdiContainer = true;
+            MainMenuStrip = menu;
             Name = "Qnacho";
-            Text = "Qnacho";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "SISTEMA DE VENTAS";
             Load += Qnacho_Load;
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
+            menu.ResumeLayout(false);
+            menu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -149,15 +168,16 @@
 
         #endregion
 
-        private MenuStrip menuStrip1;
+        private MenuStrip menu;
         private ToolStripMenuItem gestionDeProductoToolStripMenuItem;
         private ToolStripMenuItem gestionDeVentasToolStripMenuItem;
         private ToolStripMenuItem gestionDeClientesToolStripMenuItem;
         private ToolStripMenuItem gestionDeComprasToolStripMenuItem;
         private ToolStripMenuItem gestionDeInventarioToolStripMenuItem;
         private ToolStripMenuItem gestionDeEmpleadosToolStripMenuItem;
+        private Label label1;
         private PictureBox pictureBox1;
-        private Button button1;
-        private Button button2;
+        private Label label2;
+        private Label labelusuario;
     }
 }

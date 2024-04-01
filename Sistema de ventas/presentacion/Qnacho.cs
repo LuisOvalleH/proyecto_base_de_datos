@@ -1,16 +1,20 @@
-using MySql.Data.MySqlClient;
+using System;
 using System.Data;
+using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace presentacion
 {
     public partial class Qnacho : Form
     {
         private MySqlConnection mySqlConnection;
+        private string usuario;
 
-        public Qnacho()
+        public Qnacho(string usuario)
         {
             InitializeComponent();
-            string mysqlcon = "server= 127.0.0.1; port=3307; user=root; database=qnacho; password=ovalle82";
+            this.usuario = usuario; // Guardar el nombre de usuario recibido como parámetro
+            string mysqlcon = "server=127.0.0.1; port=3307; user=root; database=qnacho; password=ovalle82";
             mySqlConnection = new MySqlConnection(mysqlcon);
         }
 
@@ -38,14 +42,23 @@ namespace presentacion
 
         private void Qnacho_Load(object sender, EventArgs e)
         {
+            labelusuario.Text = usuario; // Mostrar el nombre de usuario en el Label
             OpenConnection();
+            CloseConnection();
         }
 
-        private void gestionDeProductoToolStripMenuItem_Click(object sender, EventArgs e)
+ 
+
+        private void gestionDeEmpleadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            frmEmpleados formEmpleados = new frmEmpleados();
+
+            // Establecer el formulario de empleados como formulario secundario de Qnacho
+            formEmpleados.MdiParent = this;
+
+            // Mostrar el formulario de empleados
+            formEmpleados.Show();
 
         }
-
-        // Si necesitas cerrar la conexión en algún momento, puedes llamar al método CloseConnection()
     }
 }

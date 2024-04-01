@@ -63,6 +63,26 @@ namespace presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _972105c5a775f38cf33d3924aea053f1 {
+            get {
+                object obj = ResourceManager.GetObject("972105c5a775f38cf33d3924aea053f1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _972105c5a775f38cf33d3924aea053f1_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("972105c5a775f38cf33d3924aea053f1-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap beneficio_financiero {
             get {
                 object obj = ResourceManager.GetObject("beneficio-financiero", resourceCulture);
@@ -113,9 +133,9 @@ namespace presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Imagen_de_WhatsApp_2024_02_28_a_las_08_371 {
+        internal static System.Drawing.Bitmap Imagen_de_WhatsApp_2024_02_28_a_las_08_37_37_9d4332cd_removebg_preview {
             get {
-                object obj = ResourceManager.GetObject("Imagen de WhatsApp 2024-02-28 a las 08.371", resourceCulture);
+                object obj = ResourceManager.GetObject("Imagen_de_WhatsApp_2024-02-28_a_las_08.37.37_9d4332cd-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

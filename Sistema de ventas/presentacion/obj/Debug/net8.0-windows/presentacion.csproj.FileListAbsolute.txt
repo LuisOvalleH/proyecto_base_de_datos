@@ -109,3 +109,7 @@ C:\Users\Usuario\Documents\GitHub\Bitacora\proyecto_base_de_datos\Sistema de ven
 C:\Users\Usuario\Documents\GitHub\Bitacora\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.pdb
 C:\Users\Usuario\Documents\GitHub\Bitacora\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.genruntimeconfig.cache
 C:\Users\Usuario\Documents\GitHub\Bitacora\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\ref\presentacion.dll
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.Login.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmEmpleados.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmProducto.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmVentas.resources
