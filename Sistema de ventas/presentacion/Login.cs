@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Security.Cryptography;
 
 namespace presentacion
 {
@@ -13,6 +14,8 @@ namespace presentacion
             InitializeComponent();
             string mysqlcon = "server=127.0.0.1; port=3307; user=root; database=qnacho; password=ovalle82";
             mySqlConnection = new MySqlConnection(mysqlcon);
+            this.MaximizeBox = false;
+
         }
 
         private void btningresar_Click(object sender, EventArgs e)
@@ -30,24 +33,33 @@ namespace presentacion
             {
                 mySqlConnection.Open();
 
-                string query = "SELECT COUNT(*) FROM empleados WHERE usuario = @usuario AND clave = @contraseña";
-                MySqlCommand command = new MySqlCommand(query, mySqlConnection);
-                command.Parameters.AddWithValue("@usuario", usuario);
-                command.Parameters.AddWithValue("@contraseña", contraseña);
-
-                int count = Convert.ToInt32(command.ExecuteScalar());
-
-                if (count > 0)
+                // Calcular el hash SHA-256 de la contraseña proporcionada
+                using (SHA256 sha256 = SHA256.Create())
                 {
-                    MessageBox.Show("Inicio de sesión exitoso.");
-                    Qnacho form = new Qnacho(usuario);
-                    form.Show();
-                    this.Hide();
-                    form.FormClosing += frm_closing;
-                }
-                else
-                {
-                    MessageBox.Show("Usuario o contraseña incorrectos.");
+                    byte[] hashBytes = sha256.ComputeHash(System.Text.Encoding.UTF8.GetBytes(contraseña));
+                    string hash = BitConverter.ToString(hashBytes).Replace("-", "").ToLower();
+
+                    // Consulta para verificar el usuario y la contraseña en la base de datos
+                    string query = "SELECT COUNT(*) FROM empleados WHERE usuario = @usuario AND clave = @contraseña";
+                    MySqlCommand command = new MySqlCommand(query, mySqlConnection);
+                    command.Parameters.AddWithValue("@usuario", usuario);
+                    command.Parameters.AddWithValue("@contraseña", hash);
+
+                    int count = Convert.ToInt32(command.ExecuteScalar());
+
+                    // Verificar si el inicio de sesión fue exitoso o no
+                    if (count > 0)
+                    {
+                        MessageBox.Show("Inicio de sesión exitoso.");
+                        Qnacho form = new Qnacho(usuario);
+                        form.Show();
+                        this.Hide();
+                        form.FormClosing += frm_closing;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario o contraseña incorrectos.");
+                    }
                 }
             }
             catch (Exception ex)
@@ -70,6 +82,16 @@ namespace presentacion
         private void btncancelar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

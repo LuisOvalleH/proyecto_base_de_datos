@@ -30,46 +30,37 @@
         {
             label1 = new Label();
             label2 = new Label();
-            pictureBox1 = new PictureBox();
             txtdocumento = new TextBox();
             txtclave = new TextBox();
             label3 = new Label();
             label4 = new Label();
             btningresar = new Button();
             btncancelar = new Button();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
-            label1.BackColor = Color.Chocolate;
+            label1.BackColor = Color.DarkOrange;
             label1.Dock = DockStyle.Left;
             label1.Location = new Point(0, 0);
             label1.Name = "label1";
             label1.Size = new Size(299, 450);
             label1.TabIndex = 0;
+            label1.Click += label1_Click;
             // 
             // label2
             // 
-            label2.BackColor = Color.Chocolate;
-            label2.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.BackColor = Color.FromArgb(255, 128, 0);
+            label2.Font = new Font("Yu Gothic UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(62, 335);
+            label2.Location = new Point(32, 366);
             label2.Name = "label2";
-            label2.Size = new Size(182, 28);
+            label2.Size = new Size(237, 31);
             label2.TabIndex = 1;
             label2.Text = "SISTEMA DE VENTAS";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.Chocolate;
-            pictureBox1.Image = Properties.Resources._972105c5a775f38cf33d3924aea053f1_removebg_preview;
-            pictureBox1.Location = new Point(62, 83);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(171, 170);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
+            label2.Click += label2_Click;
             // 
             // txtdocumento
             // 
@@ -131,12 +122,25 @@
             btncancelar.UseVisualStyleBackColor = true;
             btncancelar.Click += btncancelar_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.Chocolate;
+            pictureBox1.BackgroundImageLayout = ImageLayout.None;
+            pictureBox1.Image = Properties.Resources.Imagen_de_WhatsApp_2024_04_01_a_las_13_04_39_08dae9ee;
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(299, 450);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
             Controls.Add(btncancelar);
             Controls.Add(btningresar);
             Controls.Add(label4);
@@ -144,7 +148,6 @@
             Controls.Add(txtclave);
             Controls.Add(txtdocumento);
             Controls.Add(pictureBox1);
-            Controls.Add(label2);
             Controls.Add(label1);
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
@@ -158,12 +161,12 @@
 
         private Label label1;
         private Label label2;
-        private PictureBox pictureBox1;
         private TextBox txtdocumento;
         private TextBox txtclave;
         private Label label3;
         private Label label4;
         private Button btningresar;
         private Button btncancelar;
+        private PictureBox pictureBox1;
     }
 }

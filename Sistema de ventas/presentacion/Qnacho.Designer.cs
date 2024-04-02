@@ -34,6 +34,7 @@
             gestionDeClientesToolStripMenuItem = new ToolStripMenuItem();
             gestionDeComprasToolStripMenuItem = new ToolStripMenuItem();
             gestionDeEmpleadosToolStripMenuItem = new ToolStripMenuItem();
+            this.panelPrincipal = new Panel();
             label1 = new Label();
             pictureBox1 = new PictureBox();
             label2 = new Label();
@@ -45,7 +46,7 @@
             // menu
             // 
             menu.AutoSize = false;
-            menu.BackColor = Color.Chocolate;
+            menu.BackColor = Color.FromArgb(255, 128, 0);
             menu.Dock = DockStyle.None;
             menu.Font = new Font("Segoe UI", 10F);
             menu.ImageScalingSize = new Size(25, 25);
@@ -97,7 +98,7 @@
             // label1
             // 
             label1.Anchor = AnchorStyles.None;
-            label1.BackColor = Color.ForestGreen;
+            label1.BackColor = Color.Gold;
             label1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ButtonHighlight;
             label1.ImageAlign = ContentAlignment.MiddleLeft;
@@ -110,9 +111,9 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = Color.ForestGreen;
+            pictureBox1.BackColor = Color.Gold;
             pictureBox1.Image = Properties.Resources.Imagen_de_WhatsApp_2024_02_28_a_las_08_37_37_9d4332cd_removebg_preview;
-            pictureBox1.Location = new Point(231, 3);
+            pictureBox1.Location = new Point(248, 3);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(52, 53);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -122,7 +123,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = Color.ForestGreen;
+            label2.BackColor = Color.Gold;
             label2.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
             label2.Location = new Point(883, 19);
@@ -134,7 +135,7 @@
             // labelusuario
             // 
             labelusuario.AutoSize = true;
-            labelusuario.BackColor = Color.ForestGreen;
+            labelusuario.BackColor = Color.Gold;
             labelusuario.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelusuario.ForeColor = Color.White;
             labelusuario.Location = new Point(961, 19);
@@ -147,6 +148,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(1152, 744);
             Controls.Add(labelusuario);
             Controls.Add(label2);
@@ -164,10 +166,20 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
+
+            // panelPrincipal
+            // Configuración del Panel
+            this.panelPrincipal.Dock = DockStyle.Fill;
+            this.panelPrincipal.Location = new Point(0, 96);
+            this.panelPrincipal.Name = "panelPrincipal";
+            this.panelPrincipal.Size = new Size(1152, 648);
+            this.panelPrincipal.TabIndex = 1;
+            // Agregar el Panel al formulario
+            this.Controls.Add(this.panelPrincipal);
         }
 
         #endregion
-
+        private Panel panelPrincipal;
         private MenuStrip menu;
         private ToolStripMenuItem gestionDeProductoToolStripMenuItem;
         private ToolStripMenuItem gestionDeVentasToolStripMenuItem;
