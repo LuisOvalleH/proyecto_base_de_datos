@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bienes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bienes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="orange-square-emoji-2048x2048-58zxi74u-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orange-square-emoji-2048x2048-58zxi74u-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="972105c5a775f38cf33d3924aea053f1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\972105c5a775f38cf33d3924aea053f1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,10 +154,16 @@
   <data name="metodo-de-pago" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\metodo-de-pago.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bienes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bienes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Imagen de WhatsApp 2024-02-28 a las 08.371" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagen de WhatsApp 2024-02-28 a las 08.37.37_9d4332cd1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Imagen de WhatsApp 2024-04-01 a las 13.04.39_08dae9ee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagen de WhatsApp 2024-04-01 a las 13.04.39_08dae9ee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Imagen_de_WhatsApp_2024-04-01_a_las_13.04.39_ccdd598c-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagen_de_WhatsApp_2024-04-01_a_las_13.04.39_ccdd598c-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

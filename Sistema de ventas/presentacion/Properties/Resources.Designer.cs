@@ -153,6 +153,16 @@ namespace presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Imagen_de_WhatsApp_2024_04_01_a_las_13_04_39_ccdd598c_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Imagen_de_WhatsApp_2024-04-01_a_las_13.04.39_ccdd598c-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap metodo_de_pago {
             get {
                 object obj = ResourceManager.GetObject("metodo-de-pago", resourceCulture);
@@ -166,6 +176,16 @@ namespace presentacion.Properties {
         internal static System.Drawing.Bitmap objetivo {
             get {
                 object obj = ResourceManager.GetObject("objetivo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap orange_square_emoji_2048x2048_58zxi74u_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("orange-square-emoji-2048x2048-58zxi74u-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

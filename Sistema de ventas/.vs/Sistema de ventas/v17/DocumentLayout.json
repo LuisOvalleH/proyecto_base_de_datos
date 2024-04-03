@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\qnacho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\qnacho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\qnacho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\qnacho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmempleados.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmempleados.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\qnacho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\qnacho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\qnacho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\qnacho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Login.cs",
               "RelativeDocumentMoniker": "presentacion\\Login.cs",
               "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Login.cs",
               "RelativeToolTip": "presentacion\\Login.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBMAAAAAAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAYwGMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-01T02:28:42.867Z",
               "IsPinned": true,
@@ -60,32 +68,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmEmpleados.cs",
-              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmEmpleados.cs",
-              "RelativeDocumentMoniker": "presentacion\\frmEmpleados.cs",
-              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmEmpleados.cs",
-              "RelativeToolTip": "presentacion\\frmEmpleados.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAhwBIAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "Qnacho.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.cs",
+              "RelativeDocumentMoniker": "presentacion\\Qnacho.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.cs",
+              "RelativeToolTip": "presentacion\\Qnacho.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T05:41:57.657Z",
+              "WhenOpened": "2024-04-01T01:17:03.016Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmEmpleados.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmEmpleados.cs",
               "RelativeDocumentMoniker": "presentacion\\frmEmpleados.cs",
               "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmEmpleados.cs [Dise\u00F1o]",
               "RelativeToolTip": "presentacion\\frmEmpleados.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T05:41:22.796Z",
+              "WhenOpened": "2024-04-03T04:02:29.825Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "Qnacho.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.Designer.cs",
+              "RelativeDocumentMoniker": "presentacion\\Qnacho.Designer.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.Designer.cs",
+              "RelativeToolTip": "presentacion\\Qnacho.Designer.cs",
+              "ViewState": "AQIAAPwAAAAAAAAAAAAIwBIBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T09:28:19.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmEmpleados.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmEmpleados.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmEmpleados.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmEmpleados.cs",
+              "RelativeToolTip": "presentacion\\frmEmpleados.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAADwv0UAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T05:41:57.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Login.cs",
+              "RelativeDocumentMoniker": "presentacion\\Login.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "presentacion\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T02:15:03.455Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmEmpleados.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmEmpleados.Designer.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmEmpleados.Designer.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmEmpleados.Designer.cs",
+              "RelativeToolTip": "presentacion\\frmEmpleados.Designer.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAIwMAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T02:02:57.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Qnacho.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.cs",
               "RelativeDocumentMoniker": "presentacion\\Qnacho.cs",
@@ -97,20 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Qnacho.cs",
-              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.cs",
-              "RelativeDocumentMoniker": "presentacion\\Qnacho.cs",
-              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.cs",
-              "RelativeToolTip": "presentacion\\Qnacho.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T01:17:03.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "frmProducto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmProducto.cs",
               "RelativeDocumentMoniker": "presentacion\\frmProducto.cs",
@@ -122,28 +169,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Qnacho.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.Designer.cs",
-              "RelativeDocumentMoniker": "presentacion\\Qnacho.Designer.cs",
-              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.Designer.cs",
-              "RelativeToolTip": "presentacion\\Qnacho.Designer.cs",
-              "ViewState": "AQIAAKUAAAAAAAAAAAAYwLEAAAAzAAAA",
+              "DocumentIndex": 9,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "presentacion\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Login.Designer.cs",
+              "RelativeToolTip": "presentacion\\Login.Designer.cs",
+              "ViewState": "AQIAAAgCAAAAAAAAAAAwwCkCAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T09:28:19.393Z",
+              "WhenOpened": "2024-04-03T03:21:54.583Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Login.cs",
-              "RelativeDocumentMoniker": "presentacion\\Login.cs",
-              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "presentacion\\Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T02:15:03.455Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
