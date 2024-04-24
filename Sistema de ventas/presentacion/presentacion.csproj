@@ -10,6 +10,12 @@
 
   <ItemGroup>
     <Compile Remove="Conexion.cs" />
+    <Compile Remove="frmClientes  - Copia.cs" />
+    <Compile Remove="frmClientes  - Copia.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="frmClientes  - Copia.resx" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +25,27 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="frmElegirCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmElegirProducto1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmClientes .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmRegistroVenta .cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

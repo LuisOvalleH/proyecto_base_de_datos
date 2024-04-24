@@ -148,7 +148,7 @@
             // 
             btncancelar.Cursor = Cursors.Hand;
             btncancelar.ForeColor = SystemColors.ControlText;
-            btncancelar.Location = new Point(573, 398);
+            btncancelar.Location = new Point(574, 400);
             btncancelar.Name = "btncancelar";
             btncancelar.Size = new Size(117, 45);
             btncancelar.TabIndex = 8;
@@ -160,9 +160,9 @@
             // 
             pictureBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(357, 193);
+            pictureBox2.Location = new Point(398, 222);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(62, 56);
+            pictureBox2.Size = new Size(21, 22);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 9;
             pictureBox2.TabStop = false;
@@ -172,9 +172,9 @@
             pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(357, 298);
+            pictureBox3.Location = new Point(399, 327);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(62, 56);
+            pictureBox3.Size = new Size(20, 22);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 12;
             pictureBox3.TabStop = false;
@@ -196,9 +196,9 @@
             // 
             pictureBox4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(410, 12);
+            pictureBox4.Location = new Point(467, 56);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(262, 155);
+            pictureBox4.Size = new Size(172, 102);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 14;
             pictureBox4.TabStop = false;
@@ -344,7 +344,7 @@
             // pictureBox18
             // 
             pictureBox18.Image = (Image)resources.GetObject("pictureBox18.Image");
-            pictureBox18.Location = new Point(621, -47);
+            pictureBox18.Location = new Point(645, -33);
             pictureBox18.Name = "pictureBox18";
             pictureBox18.Size = new Size(140, 131);
             pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -354,7 +354,7 @@
             // pictureBox19
             // 
             pictureBox19.Image = (Image)resources.GetObject("pictureBox19.Image");
-            pictureBox19.Location = new Point(719, 12);
+            pictureBox19.Location = new Point(501, -14);
             pictureBox19.Name = "pictureBox19";
             pictureBox19.Size = new Size(57, 50);
             pictureBox19.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -364,7 +364,7 @@
             // pictureBox21
             // 
             pictureBox21.Image = (Image)resources.GetObject("pictureBox21.Image");
-            pictureBox21.Location = new Point(345, 400);
+            pictureBox21.Location = new Point(345, 395);
             pictureBox21.Name = "pictureBox21";
             pictureBox21.Size = new Size(62, 50);
             pictureBox21.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -384,7 +384,7 @@
             // pictureBox23
             // 
             pictureBox23.Image = (Image)resources.GetObject("pictureBox23.Image");
-            pictureBox23.Location = new Point(374, 94);
+            pictureBox23.Location = new Point(360, 120);
             pictureBox23.Name = "pictureBox23";
             pictureBox23.Size = new Size(84, 76);
             pictureBox23.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -435,9 +435,9 @@
             // pictureBox27
             // 
             pictureBox27.Image = (Image)resources.GetObject("pictureBox27.Image");
-            pictureBox27.Location = new Point(502, 361);
+            pictureBox27.Location = new Point(574, 360);
             pictureBox27.Name = "pictureBox27";
-            pictureBox27.Size = new Size(33, 27);
+            pictureBox27.Size = new Size(52, 41);
             pictureBox27.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox27.TabIndex = 39;
             pictureBox27.TabStop = false;
@@ -446,7 +446,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.DarkOrange;
+            BackColor = Color.Wheat;
             ClientSize = new Size(761, 541);
             Controls.Add(pictureBox27);
             Controls.Add(pictureBox26);

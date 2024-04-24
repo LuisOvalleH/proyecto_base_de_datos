@@ -112,4 +112,12 @@ C:\Users\Usuario\Documents\GitHub\Bitacora\proyecto_base_de_datos\Sistema de ven
 C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.Login.resources
 C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmEmpleados.resources
 C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmProducto.resources
-C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmVentas.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmClientes.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmProveedores.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmDetalleCompra.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmRegistroCompra.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmElegirProveedor.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmElegirProducto.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmRegistroVenta.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmElegirCliente.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmElegirProducto1.resources

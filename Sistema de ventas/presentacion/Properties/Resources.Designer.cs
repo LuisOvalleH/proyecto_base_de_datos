@@ -123,6 +123,16 @@ namespace presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icone_loupe_noir_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("icone-loupe-noir-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Imagen_de_WhatsApp_2024_02_28_a_las_08_37_37_9d4332cd {
             get {
                 object obj = ResourceManager.GetObject("Imagen de WhatsApp 2024-02-28 a las 08.37.37_9d4332cd", resourceCulture);

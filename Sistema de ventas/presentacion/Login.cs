@@ -50,7 +50,6 @@ namespace presentacion
                     // Verificar si el inicio de sesión fue exitoso o no
                     if (count > 0)
                     {
-                        MessageBox.Show("Inicio de sesión exitoso.");
                         Qnacho form = new Qnacho(usuario);
                         form.Show();
                         this.Hide();
