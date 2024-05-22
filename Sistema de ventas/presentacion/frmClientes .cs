@@ -75,13 +75,13 @@ namespace presentacion
 
                 command.ExecuteNonQuery(); // Ejecutar la inserción
 
-                MessageBox.Show("Empleado guardado correctamente");
+                MessageBox.Show("Cliente guardado correctamente");
 
                 mySqlConnection.Close();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error al guardar el empleado: " + ex.Message);
+                MessageBox.Show("Error al guardar el cliente: " + ex.Message);
             }
         }
 

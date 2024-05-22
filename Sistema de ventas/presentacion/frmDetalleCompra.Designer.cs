@@ -47,7 +47,7 @@
             label1.Name = "label1";
             label1.Size = new Size(796, 596);
             label1.TabIndex = 1;
-            label1.Text = "HISTORIAL COMPRAS";
+            label1.Text = "HISTORIAL DE COMPRAS";
             // 
             // dataGridView1
             // 
@@ -121,6 +121,7 @@
             Controls.Add(label1);
             Name = "frmDetalleCompra";
             Text = "detalleCompras";
+            Load += frmDetalleCompra_Load_1;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

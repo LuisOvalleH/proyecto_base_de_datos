@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>presentacion</id>
+    <version>1.0.0</version>
+    <authors>presentacion</authors>
+    <icon>Imagen_de_WhatsApp_2024-02-28_a_las_08.37.37_9d4332cd-removebg-preview.png</icon>
+    <description>Package Description</description>
+    <repository type="git" commit="512bba080c0a2e68b38a3abb2c22656ee9b5e821" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="MySql.Data" version="8.3.0" exclude="Build,Analyzers" />
+        <dependency id="MySqlConnector" version="2.3.5" exclude="Build,Analyzers" />
+        <dependency id="NuGet.Frameworks" version="6.9.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net8.0-windows7.0/Imagen de WhatsApp 2024-02-28 a las 08.37.37_9d4332cd.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\bin\Release\net8.0-windows\presentacion.runtimeconfig.json" target="lib\net8.0-windows7.0\presentacion.runtimeconfig.json" />
+    <file src="C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\bin\Release\net8.0-windows\presentacion.dll" target="lib\net8.0-windows7.0\presentacion.dll" />
+    <file src="C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\Imagen de WhatsApp 2024-02-28 a las 08.37.37_9d4332cd.ico" target="content\Imagen de WhatsApp 2024-02-28 a las 08.37.37_9d4332cd.ico" />
+    <file src="C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\Imagen de WhatsApp 2024-02-28 a las 08.37.37_9d4332cd.ico" target="contentFiles\any\net8.0-windows7.0\Imagen de WhatsApp 2024-02-28 a las 08.37.37_9d4332cd.ico" />
+    <file src="C:\Users\luism\Downloads\Imagen_de_WhatsApp_2024-02-28_a_las_08.37.37_9d4332cd-removebg-preview.png" target="\Imagen_de_WhatsApp_2024-02-28_a_las_08.37.37_9d4332cd-removebg-preview.png" />
+  </files>
+</package>

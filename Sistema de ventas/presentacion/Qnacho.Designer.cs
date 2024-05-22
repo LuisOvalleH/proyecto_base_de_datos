@@ -102,6 +102,7 @@
             detalleVentasToolStripMenuItem.Name = "detalleVentasToolStripMenuItem";
             detalleVentasToolStripMenuItem.Size = new Size(224, 28);
             detalleVentasToolStripMenuItem.Text = "Detalle Ventas";
+            detalleVentasToolStripMenuItem.Click += detalleVentasToolStripMenuItem_Click;
             // 
             // gestionDeClientesToolStripMenuItem
             // 

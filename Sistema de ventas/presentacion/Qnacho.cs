@@ -149,6 +149,21 @@ namespace presentacion
             }
 
         }
+
+        private frmDetalleVenta detalleVentaForm;
+        private void detalleVentasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (detalleVentaForm == null || detalleVentaForm.IsDisposed)
+            {
+                detalleVentaForm = new frmDetalleVenta();
+                detalleVentaForm.Show();
+            }
+            else
+            {
+                detalleVentaForm.BringToFront();
+            }
+        }
+
         private frmRegistroCompra RegistroCompraForm;
 
         private void registrarCompraToolStripMenuItem_Click(object sender, EventArgs e)
@@ -177,5 +192,7 @@ namespace presentacion
                 RegistroVentaForm.BringToFront();
             }
         }
+
+
     }
 }

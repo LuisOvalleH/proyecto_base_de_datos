@@ -3,16 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmregistroventa .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmregistroventa .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmelegirproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmelegirproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmproveedores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmproveedores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmregistrocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmregistrocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmregistroventa .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmregistroventa .designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmclientes .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmclientes .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmclientes .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmclientes .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmregistrocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmregistrocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmelegirproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmelegirproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\presentacion.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\presentacion.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\qnacho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\qnacho.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\presentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\presentacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|c:\\users\\luism\\proyecto_base_de_datos\\sistema de ventas\\presentacion\\frmregistroventa .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmregistroventa .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmregistroventa .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmregistroventa .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmdetalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmdetalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmdetalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\frmdetalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\qnacho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\qnacho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\qnacho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16F8ADB4-FD05-484E-A130-48BFFB9AB838}|presentacion\\presentacion.csproj|solutionrelative:presentacion\\qnacho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +94,263 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmRegistroVenta .Designer.cs",
-              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmRegistroVenta .Designer.cs",
-              "RelativeDocumentMoniker": "presentacion\\frmRegistroVenta .Designer.cs",
-              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmRegistroVenta .Designer.cs",
-              "RelativeToolTip": "presentacion\\frmRegistroVenta .Designer.cs",
-              "ViewState": "AQIAAE0BAAAAAAAAAAAswGUBAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T08:13:19.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmRegistroVenta .cs",
-              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmRegistroVenta .cs",
-              "RelativeDocumentMoniker": "presentacion\\frmRegistroVenta .cs",
-              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmRegistroVenta .cs",
-              "RelativeToolTip": "presentacion\\frmRegistroVenta .cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAuwHkAAAA+AAAA",
+              "Title": "frmProveedores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmProveedores.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmProveedores.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmProveedores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "presentacion\\frmProveedores.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T07:37:41.97Z",
+              "WhenOpened": "2024-05-22T18:30:25.593Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmProveedores.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmProveedores.Designer.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmProveedores.Designer.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmProveedores.Designer.cs",
+              "RelativeToolTip": "presentacion\\frmProveedores.Designer.cs",
+              "ViewState": "AQIAAAgBAAAAAAAAAAAuwBcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:29:43.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "frmRegistroCompra.cs",
               "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmRegistroCompra.cs",
               "RelativeDocumentMoniker": "presentacion\\frmRegistroCompra.cs",
               "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmRegistroCompra.cs",
               "RelativeToolTip": "presentacion\\frmRegistroCompra.cs",
-              "ViewState": "AQIAAJ4AAAAAAAAAAAAUwEQAAAApAAAA",
+              "ViewState": "AQIAANQAAAAAAAAAAAAqwO4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T05:15:01.702Z",
+              "WhenOpened": "2024-05-22T18:20:24.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmRegistroCompra.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmRegistroCompra.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmRegistroCompra.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmRegistroCompra.cs [Dise\u00F1o]",
+              "RelativeToolTip": "presentacion\\frmRegistroCompra.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:20:20.681Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmEmpleados.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmEmpleados.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmEmpleados.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmEmpleados.cs [Dise\u00F1o]",
+              "RelativeToolTip": "presentacion\\frmEmpleados.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:11:13.502Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "presentacion",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\presentacion.csproj",
+              "RelativeDocumentMoniker": "presentacion\\presentacion.csproj",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\presentacion.csproj",
+              "RelativeToolTip": "presentacion\\presentacion.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-22T16:55:42.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "presentacion",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\presentacion.csproj",
+              "RelativeDocumentMoniker": "presentacion\\presentacion.csproj",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\presentacion.csproj",
+              "RelativeToolTip": "presentacion\\presentacion.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-22T17:02:08.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmClientes .cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmClientes .cs",
+              "RelativeDocumentMoniker": "presentacion\\frmClientes .cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmClientes .cs",
+              "RelativeToolTip": "presentacion\\frmClientes .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:48:32.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmClientes .cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmClientes .cs",
+              "RelativeDocumentMoniker": "presentacion\\frmClientes .cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmClientes .cs [Dise\u00F1o]",
+              "RelativeToolTip": "presentacion\\frmClientes .cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:48:29.371Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmProveedores.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmProveedores.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmProveedores.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmProveedores.cs",
+              "RelativeToolTip": "presentacion\\frmProveedores.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAqwIgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:46:42.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmElegirProveedor.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmElegirProveedor.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmElegirProveedor.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmElegirProveedor.cs",
+              "RelativeToolTip": "presentacion\\frmElegirProveedor.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAADwvy8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:46:25.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmElegirProveedor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmElegirProveedor.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmElegirProveedor.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmElegirProveedor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "presentacion\\frmElegirProveedor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:46:11.628Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmRegistroVenta .cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmRegistroVenta .cs",
+              "RelativeDocumentMoniker": "presentacion\\frmRegistroVenta .cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmRegistroVenta .cs",
+              "RelativeToolTip": "presentacion\\frmRegistroVenta .cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAswGIAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:21:49.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmRegistroVenta .cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmRegistroVenta .cs",
+              "RelativeDocumentMoniker": "presentacion\\frmRegistroVenta .cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmRegistroVenta .cs [Dise\u00F1o]",
+              "RelativeToolTip": "presentacion\\frmRegistroVenta .cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T22:21:46.271Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Qnacho.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.cs",
+              "RelativeDocumentMoniker": "presentacion\\Qnacho.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.cs",
+              "RelativeToolTip": "presentacion\\Qnacho.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAwwIoAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T21:49:41.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Qnacho.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.cs",
+              "RelativeDocumentMoniker": "presentacion\\Qnacho.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.cs [Dise\u00F1o]",
+              "RelativeToolTip": "presentacion\\Qnacho.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T21:49:36.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmDetalleVenta.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmDetalleVenta.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmDetalleVenta.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmDetalleVenta.cs",
+              "RelativeToolTip": "presentacion\\frmDetalleVenta.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAuwGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T21:49:01.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmDetalleCompra.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmDetalleCompra.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmDetalleCompra.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmDetalleCompra.cs",
+              "RelativeToolTip": "presentacion\\frmDetalleCompra.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T21:48:57.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmDetalleCompra.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmDetalleCompra.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmDetalleCompra.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmDetalleCompra.cs [Dise\u00F1o]",
+              "RelativeToolTip": "presentacion\\frmDetalleCompra.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T21:48:43.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmDetalleVenta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmDetalleVenta.cs",
+              "RelativeDocumentMoniker": "presentacion\\frmDetalleVenta.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\frmDetalleVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "presentacion\\frmDetalleVenta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T21:47:40.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Qnacho.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.Designer.cs",
+              "RelativeDocumentMoniker": "presentacion\\Qnacho.Designer.cs",
+              "ToolTip": "C:\\Users\\luism\\proyecto_base_de_datos\\Sistema de ventas\\presentacion\\Qnacho.Designer.cs",
+              "RelativeToolTip": "presentacion\\Qnacho.Designer.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAswGgAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T21:52:01.685Z",
               "EditorCaption": ""
             }
           ]

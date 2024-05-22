@@ -37,7 +37,6 @@
             txtNombre = new TextBox();
             txtContacto = new TextBox();
             txtDireccion = new TextBox();
-            btnEliminar = new Button();
             label1 = new Label();
             label7 = new Label();
             pictureBox23 = new PictureBox();
@@ -47,6 +46,8 @@
             pictureBox4 = new PictureBox();
             label8 = new Label();
             cmbEstado = new ComboBox();
+            btnDesactivar = new Button();
+            btnActivar = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -80,7 +81,7 @@
             // btnActualizar
             // 
             btnActualizar.BackColor = SystemColors.ButtonHighlight;
-            btnActualizar.Location = new Point(125, 446);
+            btnActualizar.Location = new Point(125, 434);
             btnActualizar.Name = "btnActualizar";
             btnActualizar.Size = new Size(94, 29);
             btnActualizar.TabIndex = 3;
@@ -155,19 +156,6 @@
             txtDireccion.Name = "txtDireccion";
             txtDireccion.Size = new Size(176, 27);
             txtDireccion.TabIndex = 16;
-            // 
-            // btnEliminar
-            // 
-            btnEliminar.BackColor = Color.Black;
-            btnEliminar.FlatStyle = FlatStyle.System;
-            btnEliminar.ForeColor = SystemColors.ActiveBorder;
-            btnEliminar.Location = new Point(125, 491);
-            btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(94, 29);
-            btnEliminar.TabIndex = 18;
-            btnEliminar.Text = "Eliminar";
-            btnEliminar.UseVisualStyleBackColor = false;
-            btnEliminar.Click += btnEliminar_Click;
             // 
             // label1
             // 
@@ -265,6 +253,32 @@
             cmbEstado.Size = new Size(176, 28);
             cmbEstado.TabIndex = 41;
             // 
+            // btnDesactivar
+            // 
+            btnDesactivar.BackColor = Color.Black;
+            btnDesactivar.FlatStyle = FlatStyle.System;
+            btnDesactivar.ForeColor = SystemColors.ActiveBorder;
+            btnDesactivar.Location = new Point(125, 504);
+            btnDesactivar.Name = "btnDesactivar";
+            btnDesactivar.Size = new Size(94, 29);
+            btnDesactivar.TabIndex = 42;
+            btnDesactivar.Text = "Desactivar";
+            btnDesactivar.UseVisualStyleBackColor = false;
+            btnDesactivar.Click += btnDesactivar_Click;
+            // 
+            // btnActivar
+            // 
+            btnActivar.BackColor = Color.Black;
+            btnActivar.FlatStyle = FlatStyle.System;
+            btnActivar.ForeColor = SystemColors.ActiveBorder;
+            btnActivar.Location = new Point(125, 469);
+            btnActivar.Name = "btnActivar";
+            btnActivar.Size = new Size(94, 29);
+            btnActivar.TabIndex = 18;
+            btnActivar.Text = "Activar";
+            btnActivar.UseVisualStyleBackColor = false;
+            btnActivar.Click += btnActivar_Click;
+            // 
             // frmProveedores
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -272,6 +286,7 @@
             AutoScroll = true;
             BackColor = SystemColors.ButtonFace;
             ClientSize = new Size(1304, 672);
+            Controls.Add(btnDesactivar);
             Controls.Add(cmbEstado);
             Controls.Add(label8);
             Controls.Add(pictureBox4);
@@ -284,7 +299,7 @@
             Controls.Add(label4);
             Controls.Add(label6);
             Controls.Add(label5);
-            Controls.Add(btnEliminar);
+            Controls.Add(btnActivar);
             Controls.Add(btnActualizar);
             Controls.Add(btnGuardar);
             Controls.Add(txtDireccion);
@@ -322,7 +337,6 @@
         private TextBox txtNombre;
         private TextBox txtContacto;
         private TextBox txtDireccion;
-        private Button btnEliminar;
         private Label label1;
         private Label label7;
         private PictureBox pictureBox23;
@@ -332,6 +346,7 @@
         private PictureBox pictureBox4;
         private Label label8;
         private ComboBox cmbEstado;
-
+        private Button btnDesactivar;
+        private Button btnActivar;
     }
 }

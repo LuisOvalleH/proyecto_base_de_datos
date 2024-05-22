@@ -355,6 +355,7 @@
             Controls.Add(pictureBox7);
             Name = "frmRegistroVenta";
             Text = "frmRegistroVenta";
+            Load += frmRegistroVenta_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);

@@ -37,8 +37,8 @@ namespace presentacion
                 MySqlConnection mySqlConnection = new MySqlConnection(connectionString);
                 mySqlConnection.Open();
 
-                // Consulta SQL para seleccionar todas las columnas excepto la columna de clave
-                string query = "SELECT id_proveedor,Nombre, Contacto, Direccion, Estado FROM proveedores";
+                // Consulta SQL para seleccionar solo proveedores activos
+                string query = "SELECT id_proveedor, Nombre, Contacto, Direccion, Estado FROM proveedores WHERE Estado = 'Activo'";
                 MySqlDataAdapter adapter = new MySqlDataAdapter(query, mySqlConnection);
                 DataTable dataTable = new DataTable();
                 adapter.Fill(dataTable);

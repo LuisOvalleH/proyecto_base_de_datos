@@ -76,13 +76,13 @@ namespace presentacion
 
                 command.ExecuteNonQuery(); // Ejecutar la inserción
 
-                MessageBox.Show("Empleado guardado correctamente");
+                MessageBox.Show("Proveedor guardado correctamente");
 
                 mySqlConnection.Close();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error al guardar el empleado: " + ex.Message);
+                MessageBox.Show("Error al guardar el proveedor: " + ex.Message);
             }
         }
 
@@ -91,7 +91,7 @@ namespace presentacion
             LoadEmployeesData();
         }
 
-        private void btnEliminar_Click(object sender, EventArgs e)
+        private void btnActivar_Click(object sender, EventArgs e)
         {
             // Verificar si se ha seleccionado una fila en el DataGridView
             if (dataGridView1.SelectedRows.Count > 0)
@@ -101,41 +101,85 @@ namespace presentacion
                     MySqlConnection mySqlConnection = new MySqlConnection(connectionString);
                     mySqlConnection.Open();
 
-                    // Obtener el ID del empleado seleccionado en el DataGridView
-                    int idEmpleado = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["idEmpleados"].Value);
+                    // Obtener el ID del proveedor seleccionado en el DataGridView
+                    int idProveedor = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["Id_proveedor"].Value);
 
-                    // Consulta SQL para eliminar el empleado seleccionado
-                    string query = "DELETE FROM empleados WHERE idEmpleados = @idEmpleado";
+                    // Consulta SQL para actualizar el estado del proveedor a "Activo"
+                    string query = "UPDATE proveedores SET Estado = 'Activo' WHERE Id_proveedor = @idProveedor";
                     MySqlCommand command = new MySqlCommand(query, mySqlConnection);
-                    command.Parameters.AddWithValue("@idEmpleado", idEmpleado);
+                    command.Parameters.AddWithValue("@idProveedor", idProveedor);
 
-                    // Ejecutar la consulta de eliminación
+                    // Ejecutar la consulta de actualización
                     int rowsAffected = command.ExecuteNonQuery();
 
                     if (rowsAffected > 0)
                     {
-                        MessageBox.Show("Empleado eliminado correctamente");
+                        MessageBox.Show("Proveedor activado correctamente");
                         // Volver a cargar los datos en el DataGridView para reflejar los cambios
                         LoadEmployeesData();
                     }
                     else
                     {
-                        MessageBox.Show("No se pudo eliminar el empleado");
+                        MessageBox.Show("No se pudo activar el proveedor");
                     }
 
                     mySqlConnection.Close();
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error al eliminar el empleado: " + ex.Message);
+                    MessageBox.Show("Error al activar el proveedor: " + ex.Message);
                 }
             }
             else
             {
-                MessageBox.Show("Por favor, seleccione un empleado para eliminar");
+                MessageBox.Show("Por favor, seleccione un proveedor para activar");
             }
         }
 
+        private void btnDesactivar_Click(object sender, EventArgs e)
+        {
+            // Verificar si se ha seleccionado una fila en el DataGridView
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                try
+                {
+                    MySqlConnection mySqlConnection = new MySqlConnection(connectionString);
+                    mySqlConnection.Open();
 
+                    // Obtener el ID del proveedor seleccionado en el DataGridView
+                    int idProveedor = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["Id_proveedor"].Value);
+
+                    // Consulta SQL para actualizar el estado del proveedor a "Inactivo"
+                    string query = "UPDATE proveedores SET Estado = 'Inactivo' WHERE Id_proveedor = @idProveedor";
+                    MySqlCommand command = new MySqlCommand(query, mySqlConnection);
+                    command.Parameters.AddWithValue("@idProveedor", idProveedor);
+
+                    // Ejecutar la consulta de actualización
+                    int rowsAffected = command.ExecuteNonQuery();
+
+                    if (rowsAffected > 0)
+                    {
+                        MessageBox.Show("Proveedor deshabilitado correctamente");
+                        // Volver a cargar los datos en el DataGridView para reflejar los cambios
+                        LoadEmployeesData();
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se pudo deshabilitar el proveedor");
+                    }
+
+                    mySqlConnection.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al deshabilitar el proveedor: " + ex.Message);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Por favor, seleccione un proveedor para deshabilitar");
+            }
+
+        }
     }
 }

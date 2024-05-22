@@ -121,3 +121,4 @@ C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\n
 C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmRegistroVenta.resources
 C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmElegirCliente.resources
 C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmElegirProducto1.resources
+C:\Users\luism\proyecto_base_de_datos\Sistema de ventas\presentacion\obj\Debug\net8.0-windows\presentacion.frmDetalleVenta.resources

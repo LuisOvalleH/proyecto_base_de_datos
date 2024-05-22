@@ -89,7 +89,10 @@ namespace presentacion
             }
         }
 
+        private void frmDetalleCompra_Load_1(object sender, EventArgs e)
+        {
 
+        }
     }
 
 

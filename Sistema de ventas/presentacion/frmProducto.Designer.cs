@@ -93,7 +93,7 @@
             dataGridView1.Location = new Point(343, 127);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(795, 524);
+            dataGridView1.Size = new Size(895, 524);
             dataGridView1.TabIndex = 5;
             // 
             // label5
@@ -219,7 +219,7 @@
             label8.ForeColor = SystemColors.ActiveCaptionText;
             label8.Location = new Point(343, 8);
             label8.Name = "label8";
-            label8.Size = new Size(795, 110);
+            label8.Size = new Size(895, 110);
             label8.TabIndex = 40;
             label8.Text = "Lista de Productos:";
             label8.TextAlign = ContentAlignment.MiddleLeft;
@@ -238,7 +238,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             BackColor = SystemColors.ButtonFace;
-            ClientSize = new Size(858, 672);
+            ClientSize = new Size(1311, 672);
             Controls.Add(txtCodigo);
             Controls.Add(label8);
             Controls.Add(pictureBox4);

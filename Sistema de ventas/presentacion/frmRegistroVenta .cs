@@ -49,17 +49,16 @@ namespace presentacion
 
         private void btnAgregar_Click_1(object sender, EventArgs e)
         {
-            // Agregar los datos ingresados por el usuario a la tabla de detalle de compra
-            DataRow row = detalleVentaTable.NewRow();
-            row["Producto"] = txtProducto.Text; // Obtener el nombre del producto del formulario
-            row["Cantidad"] = Convert.ToInt32(txtCantidad.Text); // Obtener la cantidad del formulario
-            row["PrecioVenta"] = Convert.ToDecimal(txtVenta.Text); // Obtener el precio de compra del formulario
-            row["SubTotal"] = Convert.ToInt32(txtCantidad.Text) * Convert.ToDecimal(txtVenta.Text); // Calcular el total
-                                                                                                    // Calcular el subtotal
-            decimal subtotal = Convert.ToDecimal(txtCantidad.Text) * Convert.ToDecimal(txtVenta.Text);
+            // Obtener los datos ingresados por el usuario
+            string producto = txtProducto.Text;
+            int cantidad = Convert.ToInt32(txtCantidad.Text);
+            decimal precioVenta = Convert.ToDecimal(txtVenta.Text);
 
-            // Agregar la fila al DataGridView
-            detalleVentaTable.Rows.Add(txtProducto.Text, txtCantidad.Text, txtVenta.Text, subtotal);
+            // Calcular el subtotal (cantidad * precioVenta)
+            decimal subtotal = cantidad * precioVenta;
+
+            // Agregar la fila al DataTable
+            detalleVentaTable.Rows.Add(producto, cantidad, precioVenta, subtotal);
 
             // Calcular y actualizar el total a pagar
             CalcularTotalPagar();
@@ -89,58 +88,84 @@ namespace presentacion
         {
             int idVenta = 0;
             decimal total = Convert.ToDecimal(txtTotal.Text); // Obtener el total de la venta del formulario
-            string query = "INSERT INTO ventas (Fecha, Total, clientes_idCliente) " +
-                           "VALUES (@Fecha, @Total, @Cliente); SELECT LAST_INSERT_ID();";
+            string query = "CALL InsertarVenta(@Fecha, @Total, @Cliente, @IdVenta);";
+
             using (MySqlCommand command = new MySqlCommand(query, mySqlConnection))
             {
                 command.Parameters.AddWithValue("@Fecha", DateTime.Now); // Usar la fecha actual
                 command.Parameters.AddWithValue("@Total", total);
                 command.Parameters.AddWithValue("@Cliente", idClienteSeleccionado);
+                command.Parameters.Add(new MySqlParameter("@IdVenta", MySqlDbType.Int32));
+                command.Parameters["@IdVenta"].Direction = ParameterDirection.Output;
 
-                idVenta = Convert.ToInt32(command.ExecuteScalar());
+                if (mySqlConnection.State == ConnectionState.Closed)
+                    mySqlConnection.Open();
+
+                command.ExecuteNonQuery();
+                idVenta = Convert.ToInt32(command.Parameters["@IdVenta"].Value);
+
+                if (mySqlConnection.State == ConnectionState.Open)
+                    mySqlConnection.Close();
             }
             return idVenta;
         }
 
         private void InsertarDetalleVenta(int idVenta)
         {
-            // Iterar a través de las filas de la DataTable para insertar cada detalle de venta
             foreach (DataRow row in detalleVentaTable.Rows)
             {
-                int idProducto = ObtenerIdProducto(row["Producto"].ToString()); // Obtener el ID del producto
+                string nombreProducto = row["Producto"].ToString();
+                int idProducto = ObtenerIdProducto(nombreProducto); // Obtener el ID del producto
                 decimal precioVenta = Convert.ToDecimal(row["PrecioVenta"]);
                 int cantidad = Convert.ToInt32(row["Cantidad"]);
-                decimal subtotal = Convert.ToDecimal(row["Subtotal"]);
+                decimal subtotal = Convert.ToDecimal(row["SubTotal"]);
 
-                string query = "INSERT INTO detalleventa (ventas_idVenta, productos_IdProducto, Cantidad, Subtotal) " +
-                               "VALUES (@IdVenta, @IdProducto, @Cantidad, @Subtotal)";
+                string query = "CALL InsertarDetalleVenta(@IdVenta, @IdProducto, @Cantidad, @Subtotal, @PrecioUnitario)";
+
                 using (MySqlCommand command = new MySqlCommand(query, mySqlConnection))
                 {
                     command.Parameters.AddWithValue("@IdVenta", idVenta);
                     command.Parameters.AddWithValue("@IdProducto", idProducto);
                     command.Parameters.AddWithValue("@Cantidad", cantidad);
                     command.Parameters.AddWithValue("@Subtotal", subtotal);
+                    command.Parameters.AddWithValue("@PrecioUnitario", precioVenta);
+
+                    if (mySqlConnection.State == ConnectionState.Closed)
+                        mySqlConnection.Open();
 
                     command.ExecuteNonQuery();
+
+                    if (mySqlConnection.State == ConnectionState.Open)
+                        mySqlConnection.Close();
                 }
             }
         }
+
+
 
         private int ObtenerIdProducto(string nombreProducto)
         {
             int idProducto = 0;
-            string query = "SELECT idProducto FROM producto WHERE Nombre = @Nombre";
+            string query = "CALL ObtenerIdProducto(@NombreProducto, @IdProducto)";
+
             using (MySqlCommand command = new MySqlCommand(query, mySqlConnection))
             {
-                command.Parameters.AddWithValue("@Nombre", nombreProducto);
-                object result = command.ExecuteScalar();
-                if (result != null)
-                {
-                    idProducto = Convert.ToInt32(result);
-                }
+                command.Parameters.AddWithValue("@NombreProducto", nombreProducto);
+                command.Parameters.Add(new MySqlParameter("@IdProducto", MySqlDbType.Int32));
+                command.Parameters["@IdProducto"].Direction = ParameterDirection.Output;
+
+                if (mySqlConnection.State == ConnectionState.Closed)
+                    mySqlConnection.Open();
+
+                command.ExecuteNonQuery();
+                idProducto = Convert.ToInt32(command.Parameters["@IdProducto"].Value);
+
+                if (mySqlConnection.State == ConnectionState.Open)
+                    mySqlConnection.Close();
             }
             return idProducto;
         }
+
 
 
 
@@ -199,7 +224,9 @@ namespace presentacion
             }
         }
 
+        private void frmRegistroVenta_Load(object sender, EventArgs e)
+        {
 
-
+        }
     }
 }

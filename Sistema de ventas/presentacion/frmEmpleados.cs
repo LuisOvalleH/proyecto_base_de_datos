@@ -31,7 +31,7 @@ namespace presentacion
                 mySqlConnection.Open();
 
                 // Consulta SQL para seleccionar todas las columnas excepto la columna de clave
-                string query = "SELECT idEmpleados, Nombre, Edad, Usuario FROM empleados";
+                string query = "SELECT idEmpleados, Nombre, Edad, Usuario,Rol FROM empleados";
                 MySqlDataAdapter adapter = new MySqlDataAdapter(query, mySqlConnection);
                 DataTable dataTable = new DataTable();
                 adapter.Fill(dataTable);
@@ -57,6 +57,8 @@ namespace presentacion
                 int edad = Convert.ToInt32(txtEdad.Text);
                 string usuario = txtUsuario.Text;
                 string clave = txtClave.Text;
+                string Rol = cmbRol.Text;
+
 
                 // Cifrar la clave con SHA256
                 string claveCifrada = ComputeSha256Hash(clave);
@@ -66,13 +68,15 @@ namespace presentacion
                 int idEmpleado = random.Next(100000, 999999); // ID de 6 dígitos
 
                 // Consulta SQL para insertar un nuevo empleado con el ID generado aleatoriamente
-                string query = "INSERT INTO empleados (idEmpleados, Nombre, Edad, Usuario, Clave) VALUES (@idEmpleado, @nombre, @edad, @usuario, @clave);";
+                string query = "INSERT INTO empleados (idEmpleados, Nombre, Edad, Usuario, Clave,Rol) VALUES (@idEmpleado, @nombre, @edad, @usuario, @clave, @Rol);";
                 MySqlCommand command = new MySqlCommand(query, mySqlConnection);
                 command.Parameters.AddWithValue("@idEmpleado", idEmpleado);
                 command.Parameters.AddWithValue("@nombre", nombre);
                 command.Parameters.AddWithValue("@edad", edad);
                 command.Parameters.AddWithValue("@usuario", usuario);
                 command.Parameters.AddWithValue("@clave", claveCifrada);
+                command.Parameters.AddWithValue("@Rol", Rol);
+
 
                 command.ExecuteNonQuery(); // Ejecutar la inserción
 

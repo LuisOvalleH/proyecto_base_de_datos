@@ -47,6 +47,8 @@
             pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
             label8 = new Label();
+            cmbRol = new ComboBox();
+            label9 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -69,7 +71,7 @@
             btnGuardar.BackColor = Color.Black;
             btnGuardar.FlatStyle = FlatStyle.System;
             btnGuardar.ForeColor = SystemColors.ActiveBorder;
-            btnGuardar.Location = new Point(125, 399);
+            btnGuardar.Location = new Point(125, 432);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(94, 29);
             btnGuardar.TabIndex = 2;
@@ -80,7 +82,7 @@
             // btnActualizar
             // 
             btnActualizar.BackColor = SystemColors.ButtonHighlight;
-            btnActualizar.Location = new Point(125, 446);
+            btnActualizar.Location = new Point(125, 467);
             btnActualizar.Name = "btnActualizar";
             btnActualizar.Size = new Size(94, 29);
             btnActualizar.TabIndex = 3;
@@ -111,7 +113,7 @@
             // label3
             // 
             label3.BackColor = Color.Orange;
-            label3.Location = new Point(87, 307);
+            label3.Location = new Point(87, 266);
             label3.Name = "label3";
             label3.Size = new Size(84, 28);
             label3.TabIndex = 11;
@@ -120,7 +122,7 @@
             // label4
             // 
             label4.BackColor = Color.Orange;
-            label4.Location = new Point(87, 226);
+            label4.Location = new Point(87, 205);
             label4.Name = "label4";
             label4.Size = new Size(139, 28);
             label4.TabIndex = 12;
@@ -129,7 +131,7 @@
             // label6
             // 
             label6.BackColor = Color.Orange;
-            label6.Location = new Point(87, 143);
+            label6.Location = new Point(87, 134);
             label6.Name = "label6";
             label6.Size = new Size(45, 28);
             label6.TabIndex = 13;
@@ -144,21 +146,21 @@
             // 
             // txtEdad
             // 
-            txtEdad.Location = new Point(87, 174);
+            txtEdad.Location = new Point(87, 165);
             txtEdad.Name = "txtEdad";
             txtEdad.Size = new Size(176, 27);
             txtEdad.TabIndex = 15;
             // 
             // txtUsuario
             // 
-            txtUsuario.Location = new Point(87, 257);
+            txtUsuario.Location = new Point(87, 236);
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(176, 27);
             txtUsuario.TabIndex = 16;
             // 
             // txtClave
             // 
-            txtClave.Location = new Point(87, 338);
+            txtClave.Location = new Point(87, 295);
             txtClave.Name = "txtClave";
             txtClave.Size = new Size(176, 27);
             txtClave.TabIndex = 17;
@@ -168,7 +170,7 @@
             btnEliminar.BackColor = Color.Black;
             btnEliminar.FlatStyle = FlatStyle.System;
             btnEliminar.ForeColor = SystemColors.ActiveBorder;
-            btnEliminar.Location = new Point(125, 491);
+            btnEliminar.Location = new Point(125, 502);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(94, 29);
             btnEliminar.TabIndex = 18;
@@ -263,6 +265,24 @@
             label8.Text = "Lista de Empleados:";
             label8.TextAlign = ContentAlignment.MiddleLeft;
             // 
+            // cmbRol
+            // 
+            cmbRol.FormattingEnabled = true;
+            cmbRol.Items.AddRange(new object[] { "admin", "empleado" });
+            cmbRol.Location = new Point(87, 365);
+            cmbRol.Name = "cmbRol";
+            cmbRol.Size = new Size(176, 28);
+            cmbRol.TabIndex = 42;
+            // 
+            // label9
+            // 
+            label9.BackColor = Color.Orange;
+            label9.Location = new Point(87, 338);
+            label9.Name = "label9";
+            label9.Size = new Size(84, 28);
+            label9.TabIndex = 43;
+            label9.Text = "Rol";
+            // 
             // frmEmpleados
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -270,6 +290,8 @@
             AutoScroll = true;
             BackColor = SystemColors.ButtonFace;
             ClientSize = new Size(1280, 672);
+            Controls.Add(label9);
+            Controls.Add(cmbRol);
             Controls.Add(label8);
             Controls.Add(pictureBox4);
             Controls.Add(pictureBox3);
@@ -330,5 +352,7 @@
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
         private Label label8;
+        private ComboBox cmbRol;
+        private Label label9;
     }
 }
